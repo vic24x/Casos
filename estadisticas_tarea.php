@@ -15,7 +15,7 @@ if (count($_POST) > 0) {
 
         if ($valor === "NP") {
             $np++;
-            continue; // no cuenta en cálculos
+            continue;
         }
 
         $calif = (int)$valor;
@@ -66,3 +66,4 @@ if (count($_POST) > 0) {
     echo "ACCESO NO VÁLIDO";
 }
 ?>
+
